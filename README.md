@@ -1,5 +1,7 @@
 # webhosting-site
 responsive site for a webhosting company using HTML5/CSS3/JS
+
+
 mobile phone view (width lower than 640px)
 
 ![image](https://user-images.githubusercontent.com/95627461/154481640-b032ad5b-7b2e-4a37-97cc-21947a767a0c.png)
