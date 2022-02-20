@@ -28,6 +28,7 @@ main {
     border: 4px solid #0e4f1f;
     border-left: none;
     position: relative;
+    overflow: hidden;
 }
 
 .package:hover,
@@ -52,6 +53,9 @@ main {
     color: white;
     background: #ff5454;
     padding: 0.5rem;
+    transform: rotateZ(38deg) translateX(3.5rem) translateY(-1rem);
+    width: 14rem;
+    text-align: center;
 }
 
 .package__subtitle {
