@@ -53,7 +53,7 @@ main {
     color: white;
     background: #ff5454;
     padding: 0.5rem;
-    transform: rotateZ(38deg) translateX(3.5rem) translateY(-1rem);
+    transform: rotateZ(35deg) translateX(4rem) translateY(-2.5rem);
     width: 14rem;
     text-align: center;
 }
