@@ -8,7 +8,7 @@ const mobileNav = document.querySelector(".mobile-nav");
 
 
 for(let i = 0; i < selectPlanButtons.length; i++){
-    selectPlanButtons[i].addEventListener("click", function(){
+    selectPlanButtons[i].addEventListener("click", () => {
         modal.classList.add("open");
         backdrop.style.display = "block";
         setTimeout(() => {
@@ -17,7 +17,7 @@ for(let i = 0; i < selectPlanButtons.length; i++){
     })
 }
 
-backdrop.addEventListener("click", function() {
+backdrop.addEventListener("click", () => {
     mobileNav.classList.remove("open");
     closeModal();
 });
@@ -37,10 +37,11 @@ function closeModal() {
     
 }
 
-toggleButton.addEventListener("click", function(){
+toggleButton.addEventListener("click", () => {
     mobileNav.classList.add("open");
     backdrop.style.display = "block";
     setTimeout(() => {
         backdrop.classList.add("open");
     }, 10);
 })
+
